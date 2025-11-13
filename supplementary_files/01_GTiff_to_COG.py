@@ -1,8 +1,7 @@
 import subprocess
-import os
 
 # Path to GDAL executable
-gdal_translate_exe = "path_to_gdal_translate"
+gdal_translate_exe = "path_to_gdal_translate" # On windows, if QGIS is installed, this is typically located in C:/Program Files/bin
 
 # File paths
 input_file = "input_file_path"
