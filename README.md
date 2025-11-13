@@ -7,13 +7,12 @@ This section discusses how to setup titiler, the main python module used to allo
 #### 1. Install python modules
 There are two python modules that need to be installed:
 - [Uvicorn](https://pypi.org/project/uvicorn/0.20.0/) version 0.20.0
-```
-pip install uvicorn==0.20.0
-```
+	- ```		  pip install uvicorn==0.20.0
+	  ```
 - [TiTiler](https://pypi.org/project/titiler/0.22.1/) version 0.22.1
-```
-pip install titiler==0.22.1
-```
+	- ```
+      pip install titiler==0.22.1
+      ```
 #### 2. Set up main.py file
 In the same file location as the html file which will display the grid dataset, create a main.py file that contains the following code:
 ```
