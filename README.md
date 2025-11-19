@@ -7,7 +7,8 @@ This section discusses how to setup titiler, the main python module used to allo
 #### 1. Install python modules
 There are two python modules that need to be installed:
 - [Uvicorn](https://pypi.org/project/uvicorn/0.20.0/) version **0.20.0**
-	- ```		  pip install uvicorn==0.20.0
+	- ```	
+	  pip install uvicorn==0.20.0
 	  ```
 - [TiTiler](https://pypi.org/project/titiler/0.22.1/) version **0.22.1**
 	- ```
@@ -66,7 +67,7 @@ Notes:
 	- -co BLOCKSIZE=512 sets the amount of pixels per block. 512 is desired for its speed.
 	- For more information on gdaltranslate see documentation [here](https://gdal.org/en/stable/programs/gdal_translate.html).
 
-#### 02. Converting Geotiff to COG
+#### 02. Converting COG to Coloured COG
 Python code found in supplementary_files.\
 Notes:
 - Requires at least gdal version 3.1.
@@ -100,3 +101,4 @@ Notes:
 
 ## Displaying On Website Using Leaflet
 Examples of the html and javascript required to display the gridded datasets can be found in this repository. The html file simply called "index.html", and the javascript file found under "javascript/grid_webpage.js"
+
