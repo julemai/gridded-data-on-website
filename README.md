@@ -120,10 +120,11 @@ Notes:
       (e.g., `data/example_cog.tif`. It must be a new file; the input
       file can not be overwritten.
 	- `-co COMPRESS=LZW` decides the compression algorithm (LZW is desired).
-	- `-nearest_color_entry` interpolates the colour value to assign
+	- `-nearest_color_entry` (used here) interpolates the colour value to assign
       points based off the `colour_txt_file`. 
-		- `-exact_color_entry` picks the closest value provided and
-      uses the colour directly corresponding to it.  
+		- `-exact_color_entry` (which may be your preferred option;
+          not used here) picks the closest value provided and uses the
+          colour directly corresponding to it
 	- `-alpha` makes any NoData values transparent and uses the last
       column of the `colour_txt_file` as alpha values. More
       information below. 
