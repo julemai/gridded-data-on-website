@@ -76,6 +76,9 @@ This step converts the GeoTiff file into a cloud-optimized GeoTiff
 The example Python code is provided as
 `supplementary_files/01_GTiff_to_COG.py`.
 
+An example input file can be found [here](https://drive.google.com/drive/folders/1TXVeO0QInICG7K1fUCcCx7qpzxwlUK7q?usp=drive_link). \
+An example output file can be found at `data/example_cog_pre_coloured.tif`
+
 Notes:
 - Requires at least gdal version 3.1
 - Based off this gdal command: 
@@ -102,6 +105,9 @@ values that will be displayed for each gridcell on the website.
 
 The example Python code is provided as
 `supplementary_files/02_COG_to_Coloured_COG.py`.
+
+An example input file can be found `data/example_cog_pre_coloured.tif`. \
+An example output file can be found at `data/example_cog.tif`
 
 Notes:
 - Requires at least gdal version 3.1.
@@ -157,4 +163,5 @@ Examples of the html and javascript required to display the gridded
 datasets can be found in this repository. The html file simply called
 `index.html`, and the javascript file found under
 `javascript/grid_webpage.js`. 
+
 
